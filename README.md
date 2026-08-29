@@ -20,6 +20,7 @@ The PNG sequence can then be turned into an MP4, MOV, GIF, or another video form
 - [Useful animation settings](#useful-animation-settings)
 - [Troubleshooting](#troubleshooting)
 - [Limitations](#limitations)
+- [Acknowledgements](#acknowledgements)
 - [References](#references)
 
 ## Installation
@@ -447,6 +448,12 @@ Close the dialog, delete `FusionParameterAnimator.settings.json` beside the scri
 - A successful parameter sweep can still be slow on complex designs because Fusion must recompute the complete model for every frame.
 - The output matches the active viewport rather than Fusion's photorealistic renderer.
 - Do not edit the model, camera, visibility, or visual style while capture is running.
+
+## Acknowledgements
+
+This project was heavily inspired by [Amanda Ghassaei's Fusion360 Scripts](https://github.com/amandaghassaei/Fusion360-Scripts). It provided much of the initial inspiration for exploring how Fusion's API could be used to create animations.
+
+The majority of the code for this project was written with the assistance of OpenAI Codex. I developed the concept, defined the desired functionality and animation behaviour, tested the add-in in Fusion 360, and made manual tweaks, adjustments, and refinements throughout development. Keep in mind that this utility was intended to be a quick side project, so don't expect too much.
 
 ## References
 
