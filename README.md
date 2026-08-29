@@ -26,26 +26,30 @@ The PNG sequence can then be turned into an MP4, MOV, GIF, or another video form
 ## Installation
 
 1. Download and extract the package from the releases tab.
+
+![Download package](media/instructions/0.png)
+
 2. [Configure the parameter keyframes according to your model.](#configuring-parameter-tracks--keyframes)
+
 3. Open the **Scripts and Add-Ins** menu under Utilities.
 
 ![Scripts and Add-Ins menu option](media/instructions/1.png)
 
 4. Choose **Script or add-in from device**, and select the `FusionParameterAnimator` file you extracted.
 
-![Scripts and Add-Ins menu option](media/instructions/2.png)
+![Select script folder](media/instructions/2.png)
 
 5. Select **FusionParameterAnimator** in the Scripts list and click the triangle to run it.
 
-![Scripts and Add-Ins menu option](media/instructions/3.png)
+![Run Script](media/instructions/3.png)
 
 6. You'll be prompted to select the script folder again, select the `FusionParameterAnimator` file you extracted.
 
-![Scripts and Add-Ins menu option](media/instructions/4.png)
+![Select script folder again](media/instructions/4.png)
 
 7. You should see a dialog menu in Fusion. For more info on what each setting does, check out [Complete settings reference](#complete-settings-reference).
 
-![Scripts and Add-Ins menu option](media/instructions/5.png)
+![Dialog menu](media/instructions/5.png)
 
 ## Configuring parameter tracks / keyframes
 
@@ -287,13 +291,10 @@ Every group and setting also has a short explanation when hovered over in Fusion
 | **Stop on Timeline Error**        | Stops when a timeline feature reports an error, preserving the partial output rather than continuing with a visibly broken model. A failed **Compute All** still stops capture even when this option is disabled.                                                                    |
 
 </details>
-<details>
-<summary><h3>Remembered settings</h3></summary>
+
+### Remembered settings
 
 After a successful submission, menu values are saved in `FusionParameterAnimator.settings.json` beside the script and loaded next time. The animation name is reused only when the same Fusion document is active; the other menu values are shared. Delete this generated JSON file to return to the defaults near the top of the Python file. Deleting it does not affect the parameter tracks.
-
-</details>
-<details>
 
 ## Output files
 
