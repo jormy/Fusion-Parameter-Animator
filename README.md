@@ -8,7 +8,7 @@ A script to make an animation from a Fusion design while:
 
 The PNG sequence can then be turned into an MP4, MOV, GIF, or another video format with FFmpeg. The script uses Fusion's current viewport appearance, so the captured frames include the visual style, materials, environment, visibility, and camera view you have set in Fusion.
 
-![Parametric animation example](media/triple-stand-parametric-animation.mp4)
+![Parametric animation example](media/triple-stand-parametric-animation.gif)
 
 ## Contents
 
