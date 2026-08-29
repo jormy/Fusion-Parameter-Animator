@@ -349,6 +349,9 @@ ffmpeg -framerate 30 -i "frame_%05d.png" -vf "fps=15,scale=960:-1:flags=lanczos,
 
 Change `960` to the desired width. GIF files have limited color and can become very large; MP4 is preferable for the full-quality animation.## Useful animation settings
 
+
+## Useful animation settings
+
 ### Parameter animation without camera movement
 
 Set **Rotations** to `0`. The user parameters will animate while the camera remains at its starting position. Camera easing and **Reach Final Angle** have no visible effect in this mode.
@@ -369,8 +372,6 @@ The current script requires at least one valid track. Give any numeric User Para
 ```
 
 The parameter remains constant for every frame, so the result is a normal turntable animation. Set **Rotations** to the desired number of turns.
-
-## Useful animation settings
 
 ### Seamless perpetual spin
 
